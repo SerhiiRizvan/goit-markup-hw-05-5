@@ -52,7 +52,6 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 
 .header {
@@ -705,14 +704,9 @@ transform: translate(-50%, -50%) scale(0.5)
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.modal-close:hover {
-    border: 1px solid #2196F3;
-    color: #188CE8;
-}
-
-.modal-close-icon {
-    fill: currentColor;
-
+.modal-close:hover .modal-close-icon,
+.modal-close:focus .modal-close-icon {
+    fill: #188CE8;
 }
 
 .is-hidden {
